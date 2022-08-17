@@ -36,7 +36,7 @@ p{
 }
 
 .section-p1{
-    padding: 40px 60px;
+    padding: 40px 40px;
 
 }
 
@@ -179,3 +179,96 @@ body{
     color: #008178;
     background-color: #fddde4;
 }
+#features .fe-box:nth-child(2) h6 {
+    background-color: aquamarine;
+};
+#features .fe-box:nth-child(3) h6 {
+   background-color: lightseagreen; 
+}
+
+#features .fe-box:nth-child(4) h6 {
+    background-color: burlywood;
+} 
+
+#features .fe-box:nth-child(5) h6 {
+    background-color: lightgreen;
+} 
+
+#features .fe-box:nth-child(6) h6 {
+    background-color: lightpink;
+} 
+
+/** start products styling */
+#featuresTitles{
+    text-align: center;
+}
+
+
+
+#product1{
+    position: absolute;
+ display: grid;
+grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+ gap: 50px;
+ justify-content: center;
+align-content: center;
+}
+
+#product1 .pro{
+
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro:hover{
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.06)
+
+}
+#product1 .pro #desc{
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product1 .pro #desc span{
+    color: #606060;
+    font-size: 12px;
+}
+
+#product1 .pro #desc h5{
+    padding-top: 7px;
+    font-size: 14px;
+    color: #1a1a1a;
+}
+
+#product1 .pro #desc  .bi-star-fill{
+    padding: 7px 0;
+    font-size: 12px;
+    color: gold;
+}
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #088178;
+    font-weight: 500;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    left: 90%;
+    cursor: pointer;
+}
+
+/**END PRODUCTS STYLING */
